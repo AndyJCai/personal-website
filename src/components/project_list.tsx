@@ -14,7 +14,7 @@ const ProjectWrapper = styled("div")`
   padding-bottom: 30px;
   padding-top: 30px;
   position: relative;
-  background: linear-gradient(-200deg, #1d2b64, #f8cdda);
+  background: linear-gradient(-200deg, #fefefe, #00d4ff);
   z-index: -1;
 `;
 
@@ -39,7 +39,7 @@ export default class Projects extends React.Component {
       <>
         <ProjectWrapper>
           <div style={{ width: "83%" }}>
-            <SecTitle href="/">projects</SecTitle>
+            <SecTitle>projects</SecTitle>
           </div>
           <ProjDiv>
             {projs.map((proj) => (
