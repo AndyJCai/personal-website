@@ -3,7 +3,7 @@ import vclalogo from "./exps/vcla.png";
 
 export var experiences = [
   {
-    company: "UCLA VCLA",
+    company: "UCLA Center for Vision, Cognition, Learning, and Autonomy",
     title: "Research Intern",
     startdate: new Date(2020, 4),
     enddate: null,
@@ -31,7 +31,7 @@ export var projs = [
     title: "SF Bay Area Loans Website",
     pic: null,
     desc:
-      "<em> Simulataneous Location and Mapping (SLAM). <em> Generates 3D scene by plotting points in free space triangulated by features extracted from MP4's.",
-    link: "",
+      "",
+    link: "http://www.sfbayarealoan.com/",
   },
 ];
