@@ -62,7 +62,7 @@ const CompDiv = styled("div")`
 `;
 
 const Company = styled("div")`
-  background: linear-gradient(90deg, #1d2b64 -50%, #f8cdda 120%);
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: rgba(0, 0, 0, 0);

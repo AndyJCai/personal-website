@@ -14,7 +14,7 @@ const ProjectWrapper = styled("div")`
   padding-bottom: 30px;
   padding-top: 30px;
   position: relative;
-  background: linear-gradient(-200deg, #fefefe, #00d4ff);
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
   z-index: -1;
 `;
 

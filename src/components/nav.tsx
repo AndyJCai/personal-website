@@ -121,16 +121,10 @@ export default class Navbar extends React.Component<NavProps> {
             <ScrollLink to="proj" smooth={true} duration={500}>
               projects
             </ScrollLink>
-            <ScrollLink to="vids" smooth={true} duration={500}>
-              videos
-            </ScrollLink>
-            <ScrollLink to="frendz" smooth={true} duration={500}>
-              friends
-            </ScrollLink>
             <ExtLink
               scroll={this.props.scrolled}
               target="_blank"
-              href="./Henry_Trinh_Resume.pdf"
+              href="./AndyCaiResume.pdf"
             >
               resume
             </ExtLink>
