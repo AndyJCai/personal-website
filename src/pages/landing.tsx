@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { Element, animateScroll } from "react-scroll";
 import ArrowUpwardSharpIcon from '@material-ui/icons/ArrowUpwardSharp';
 
-// import Cover from "../components/cover";
+import Cover from "../components/cover";
 import Navbar from "../components/nav";
-// import Experience from "../components/expsection";
+import Experiences from "../components/experience_list";
 import Projects from "../components/project_list";
 
 const PageWrapper = styled("div")`
@@ -51,11 +51,15 @@ const GoUp = styled("div")`
   }
 `;
 
+interface LandingPageProps {
+
+}
+
 export default class LandingPage extends React.Component<
   {},
   { scrolled: boolean }
 > {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
     this.scrollEvent = this.scrollEvent.bind(this);
   }
@@ -86,7 +90,7 @@ export default class LandingPage extends React.Component<
           </GoUp>
           <Cover />
           <AdjElem name="exp" />
-          <Experience />
+          <Experiences />
           <AdjElem name="proj" />
           <Projects />
         </PageWrapper>

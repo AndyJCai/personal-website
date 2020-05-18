@@ -22,7 +22,7 @@ const ProjWrapper = styled("a")`
   }
 `;
 
-const ProjPic = styled("div")`
+const ProjPic = styled("div")<{pic: any}>`
   width: 100%;
   height: 60%;
   background: url(${(props) => props.pic}) no-repeat;

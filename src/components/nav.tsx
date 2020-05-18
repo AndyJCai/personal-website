@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import * as Scroll from "react-scroll";
 
-const NavWrapper = styled("div")`
+const NavWrapper = styled("div")<{scroll: boolean}>`
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -29,7 +29,7 @@ const NavWrapper = styled("div")`
   }
 `;
 
-const NavItems = styled("div")`
+const NavItems = styled("div")<{scroll: boolean}>`
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -83,7 +83,7 @@ const ScrollLink = styled(Scroll.Link)`
   }
 `;
 
-const ExtLink = styled("a")`
+const ExtLink = styled("a")<{scroll: boolean}>`
   ${(props) => (props.scroll ? "background-clip: text" : "")};
   ${(props) => (props.scroll ? "-webkit-background-clip: text" : "")};
   text-decoration: none;
@@ -121,10 +121,16 @@ export default class Navbar extends React.Component<NavProps> {
             <ScrollLink to="proj" smooth={true} duration={500}>
               projects
             </ScrollLink>
+            <ScrollLink to="vids" smooth={true} duration={500}>
+              videos
+            </ScrollLink>
+            <ScrollLink to="frendz" smooth={true} duration={500}>
+              friends
+            </ScrollLink>
             <ExtLink
               scroll={this.props.scrolled}
               target="_blank"
-              href="./Andy_Cai_Resume.pdf"
+              href="./Henry_Trinh_Resume.pdf"
             >
               resume
             </ExtLink>

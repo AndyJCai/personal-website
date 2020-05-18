@@ -10,7 +10,7 @@ import {
     MailOutlineRounded
 } from "@material-ui/icons";
 
-import mainpic from "../assets/main1.jpeg";
+import mainpic from '../assets/AndyCai.jpg';
 
 const ProfFrame = keyframes`
 from {
@@ -138,7 +138,7 @@ export default class Cover extends React.Component {
     return (
       <>
         <CoverWrapper>
-          <Train />
+          {/* <Train /> */}
           <PicWrapper>
             <ProfPic />
             <Title>andy cai</Title>
