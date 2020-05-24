@@ -1,5 +1,10 @@
 import blokpartylogo from "./exps/blokparty.png";
 import vclalogo from "./exps/vcla.png";
+import devxlogo from './exps/devx.png';
+
+// Below are project logos
+import pulplogo from './projs/pulplogo.png';
+import climalogo from './projs/Clima-Icon.png'
 
 export var experiences = [
   {
@@ -15,7 +20,7 @@ export var experiences = [
   },
   {
     company: "Blok Party",
-    title: "Software Development Engineer Intern",
+    title: "Software Engineering Intern",
     startdate: new Date(2019, 6),
     enddate: new Date(2019, 9),
     bullets: ["Designed and updated PlayTable’s user interface to a more friendly and modern UI using Android Studio.",
@@ -27,14 +32,16 @@ export var experiences = [
 
   {
     company: "UCLA DevX",
-    title: "Frontend Lead @ ",
+    title: "Frontend Lead @ Pulp",
     startdate: new Date(2019, 6),
     enddate: new Date(2019, 9),
-    bullets: ["Designed and updated PlayTable’s user interface to a more friendly and modern UI using Android Studio.",
-    "Created Profile caching mechanism to store user’s profile information locally and updates every 24 hours.",
-    "Implemented a payment flow that enables users to purchase games and smart pieces and a SetupWizard that guides users through the device setup process."],
-    logo: blokpartylogo,
-    link: "https://blok.party/",
+    bullets: [
+      "Led the frontend development of Pulp, an experience recommendation app for college students.",
+      "Created with log-in page, map view, and recommendation list page in native iOS (Swift) along with Cocoapods.",
+      "Created the work flow and led a team of 3 frontend developers and collaborated with backend developers."
+  ],
+    logo: devxlogo,
+    link: "https://www.notion.so/devxteams/Pulp-bfe290f0dead47698d99cdfef9abacc1",
   },
 ];
 
@@ -43,7 +50,21 @@ export var projs = [
     title: "SF Bay Area Loans Website",
     pic: null,
     desc:
-      "",
+      "Developed website for a Bay Area loan manager to automate her customer information collection. The website collects the financial background and information from a client, and sends it in a formatted email to the manager. Developed with React.js frontend, Flask backend, and deployed on Heroku.",
     link: "http://www.sfbayarealoan.com/",
   },
+  {
+    title: "Pulp",
+    pic: pulplogo,
+    desc:
+      "pulp provides personalized recommendations to help you find your next destination. Designed for all kinds of travelers from all walks of life, finding things to do in an old or new city is easy with pulp.",
+    link: "https://github.com/AndyJCai/pulp-frontend",
+  },
+  {
+    title: "Clima",
+    pic: climalogo,
+    desc:
+      "Clima is a weather application that updates the weather data according to your current location. Developed this for fun and to learn basic iOS development.",
+    link: "https://github.com/AndyJCai/Clima-iOS11",
+  }
 ];

@@ -51,7 +51,7 @@ const NavItems = styled("div")<{scroll: boolean}>`
       margin-bottom: -3px;
       background: ${(props) =>
         props.scroll
-          ? "linear-gradient(90deg, #1d2b64 -50%, #f8cdda 120%)"
+          ? "linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)"
           : "white"};
       opacity: 0;
       transition: 0.2s;
