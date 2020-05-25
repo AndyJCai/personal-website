@@ -4,7 +4,7 @@ import { keyframes } from 'styled-components';
 
 import { Instagram, LinkedIn, GitHub, MailOutlineRounded } from '@material-ui/icons';
 
-import mainpic from '../assets/AndyCai.jpg';
+import mainpic from '../assets/Andy_Cai.png';
 
 const ProfFrame = keyframes`
 from {
@@ -43,8 +43,8 @@ const ProfPic = styled('div')`
 	border: white 7px solid;
 	background-image: url(${mainpic});
 	background-size: 150%;
-	background-position-x: center;
-	background-position-y: 18%;
+	background-position-x: 60%;
+	background-position-y: 40%;
 	width: 300px;
 	height: 300px;
 	animation: ${ProfFrame} 0.7s 0.5s both;
@@ -138,7 +138,7 @@ export default class Cover extends React.Component {
 					<PicWrapper>
 						<ProfPic />
 						<Title>andy cai</Title>
-						<Desc>Skate fast, eat ass.</Desc>
+						<Desc>Student. Entrepreneur. Programmer.</Desc>
 						<ConCollection>
 							<Contact target="_blank" href="https://www.linkedin.com/in/andycai0212/">
 								<LinkedIn />
