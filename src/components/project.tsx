@@ -62,7 +62,7 @@ const ProjName = styled("div")`
 const ProjDesc = styled("div")`
   font-size: 14px;
   align-self: center;
-  margin: 5px 10px;
+  margin: 15px 15px;
 `;
 
 interface ProjProps {
