@@ -138,7 +138,7 @@ export default class Cover extends React.Component {
 					<PicWrapper>
 						<ProfPic />
 						<Title>andy cai</Title>
-						<Desc>Just grooving to my own drums.</Desc>
+						<Desc>Just grooving to my own drum.</Desc>
 						<ConCollection>
 							<Contact target="_blank" href="https://www.linkedin.com/in/andycai0212/">
 								<LinkedIn />

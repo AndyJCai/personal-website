@@ -1,6 +1,7 @@
 import blokpartylogo from "./exps/blokparty.png";
 import vclalogo from "./exps/vcla.png";
 import devxlogo from './exps/devx.png';
+import routablelogo from './exps/routableai.png';
 
 // Below are project logos
 import pulplogo from './projs/pulplogo.png';
@@ -8,12 +9,25 @@ import climalogo from './projs/Clima-Icon.png'
 
 export var experiences = [
   {
+    company: "Routable AI",
+    title: "Software Engineering Intern",
+    startdate: new Date(2020, 7),
+    enddate: null,
+    bullets: [
+      "Developing microservices using Golang, GraphQL, and InfluxDB for Routable AI's route optimization API.",
+    ],
+    logo: routablelogo,
+    link: "http://routable.ai/",
+  },
+  {
     company: "Center for Vision, Cognition, Learning, and Autonomy",
     title: "Research Intern",
     startdate: new Date(2020, 4),
     enddate: null,
     bullets: [
-      "Researching Reinforcement Learning in path predictions and planning for self-driving vehicles under PhD Student Xu Xie.",
+      "Research in Reinforcement Learning for path planning for self-driving vehicles under simulated environments.",
+      "Simulate and improve behaviors of reinforcement learning agents in unknown environments with PyTorch.",
+      "Contributed to an open-source vehicle simulation and data collection tool in C++ under GTA environment."
     ],
     logo: vclalogo,
     link: "https://vcla.stat.ucla.edu/",
@@ -21,8 +35,8 @@ export var experiences = [
   {
     company: "Blok Party",
     title: "Software Engineering Intern",
-    startdate: new Date(2019, 6),
-    enddate: new Date(2019, 9),
+    startdate: new Date(2019, 5),
+    enddate: new Date(2019, 8),
     bullets: ["Designed and updated PlayTable’s user interface to a more friendly and modern UI using Android Studio.",
     "Created Profile caching mechanism to store user’s profile information locally and updates every 24 hours.",
     "Implemented a payment flow that enables users to purchase games and smart pieces and a SetupWizard that guides users through the device setup process."],
@@ -33,8 +47,8 @@ export var experiences = [
   {
     company: "UCLA DevX",
     title: "Frontend Lead @ Pulp",
-    startdate: new Date(2019, 6),
-    enddate: new Date(2019, 9),
+    startdate: new Date(2019, 4),
+    enddate: new Date(2019, 7),
     bullets: [
       "Led the frontend development of Pulp, an experience recommendation app for college students.",
       "Created with log-in page, map view, and recommendation list page in native iOS (Swift) along with Cocoapods.",
