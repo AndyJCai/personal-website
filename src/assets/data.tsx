@@ -61,6 +61,14 @@ export var experiences = [
 
 export var projs = [
   {
+    title: "Reinforcement Learning Research",
+    pic: null,
+    desc:
+      "Python implementation of Q-learning, SARSA, SARSA-n, Monte Carlo, and a few other policy evaluation reinforcement learning algorithms",
+    link: "https://github.com/AndyJCai/rl-research/blob/master/assignment-2/assignment2.ipynb",
+  },
+
+  {
     title: "SF Bay Area Loans Website",
     pic: null,
     desc:
