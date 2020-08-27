@@ -72,7 +72,7 @@ export var projs = [
     title: "SF Bay Area Loans Website",
     pic: null,
     desc:
-      "Developed website for a Bay Area loan manager to automate her customer information collection. The website collects the financial background and information from a client, and sends it in a formatted email to the manager. Developed with React.js frontend, Flask backend, and deployed on Heroku.",
+      "Website for a Bay Area loan manager to collect the financial background and information from a client, and sends it in a formatted email to the manager. Developed with React.js frontend, Flask backend, and deployed on Heroku.",
     link: "http://www.sfbayarealoan.com/",
   },
   {
