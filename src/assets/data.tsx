@@ -6,6 +6,8 @@ import routablelogo from './exps/routableai.png';
 // Below are project logos
 import pulplogo from './projs/pulplogo.png';
 import climalogo from './projs/Clima-Icon.png'
+import RLlogo from './projs/rl-research.png'
+import loanlogo from './projs/loan.png'
 
 export var experiences = [
   {
@@ -62,7 +64,7 @@ export var experiences = [
 export var projs = [
   {
     title: "Reinforcement Learning Research",
-    pic: null,
+    pic: RLlogo,
     desc:
       "Python implementation of Q-learning, SARSA, SARSA-n, Monte Carlo, and a few other policy evaluation reinforcement learning algorithms",
     link: "https://github.com/AndyJCai/rl-research/blob/master/assignment-2/assignment2.ipynb",
@@ -70,9 +72,9 @@ export var projs = [
 
   {
     title: "SF Bay Area Loans Website",
-    pic: null,
+    pic: loanlogo,
     desc:
-      "Website for a Bay Area loan manager to collect the financial background and information from a client, and sends it in a formatted email to the manager. Developed with React.js frontend, Flask backend, and deployed on Heroku.",
+      "Website for a Bay Area loan manager to collect the financial information from a client and send it in a formatted email to the manager. Developed with React.js and Flask. Deployed on Heroku.",
     link: "http://www.sfbayarealoan.com/",
   },
   {

@@ -6,7 +6,7 @@ const ProjWrapper = styled("a")`
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 10px;
   border-radius: 10px;
-  height: 375px;
+  height: 425px;
   width: 250px;
   background: white;
   text-decoration: none;
@@ -60,9 +60,9 @@ const ProjName = styled("div")`
 `;
 
 const ProjDesc = styled("div")`
-  font-size: 14px;
+  font-size: 13px;
   align-self: center;
-  margin: 15px 15px;
+  margin: 10px 10px;
 `;
 
 interface ProjProps {
