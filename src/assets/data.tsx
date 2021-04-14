@@ -1,7 +1,8 @@
 import blokpartylogo from "./exps/blokparty.png";
 import vclalogo from "./exps/vcla.png";
 import devxlogo from './exps/devx.png';
-import routablelogo from './exps/routableai.png';
+import trclogo from './exps/trc.png';
+import dropboxlogo from './exps/dropbox.png';
 
 // Below are project logos
 import pulplogo from './projs/pulplogo.png';
@@ -11,20 +12,30 @@ import loanlogo from './projs/loan.png'
 
 export var experiences = [
   {
-    company: "Routable AI",
-    title: "Software Engineering Intern",
-    startdate: new Date(2020, 7),
+    company: "Drobox",
+    title: "Incoming Software Engineering Intern",
+    startdate: new Date(2021, 5),
     enddate: null,
+    bullets: [
+    ],
+    logo: dropboxlogo,
+    link: "https://dropbox.com/",
+  },
+  {
+    company: "The Routing Company",
+    title: "Software Engineering Intern",
+    startdate: new Date(2020, 6),
+    enddate: new Date(2020, 9),
     bullets: [
       "Developing microservices using Golang, GraphQL, and InfluxDB for Routable AI's route optimization API.",
     ],
-    logo: routablelogo,
-    link: "http://routable.ai/",
+    logo: trclogo,
+    link: "https://theroutingcompany.com/",
   },
   {
     company: "Center for Vision, Cognition, Learning, and Autonomy",
     title: "Research Intern",
-    startdate: new Date(2020, 4),
+    startdate: new Date(2020, 3),
     enddate: null,
     bullets: [
       "Research in Reinforcement Learning for path planning for self-driving vehicles under simulated environments.",
@@ -39,7 +50,8 @@ export var experiences = [
     title: "Software Engineering Intern",
     startdate: new Date(2019, 5),
     enddate: new Date(2019, 8),
-    bullets: ["Designed and updated PlayTable’s user interface to a more friendly and modern UI using Android Studio.",
+    bullets: [
+    "Designed and updated PlayTable’s user interface to a more friendly and modern UI using Android Studio.",
     "Created Profile caching mechanism to store user’s profile information locally and updates every 24 hours.",
     "Implemented a payment flow that enables users to purchase games and smart pieces and a SetupWizard that guides users through the device setup process."],
     logo: blokpartylogo,
