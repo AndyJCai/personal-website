@@ -12,7 +12,7 @@ import loanlogo from './projs/loan.png'
 
 export var experiences = [
   {
-    company: "Drobox",
+    company: "Dropbox",
     title: "Incoming Software Engineering Intern",
     startdate: new Date(2021, 5),
     enddate: null,
