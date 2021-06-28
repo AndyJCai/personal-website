@@ -124,7 +124,7 @@ export default class Navbar extends React.Component<NavProps> {
             <ExtLink
               scroll={this.props.scrolled}
               target="_blank"
-              // href="./AndyCaiResume.pdf"
+              href="./AndyCaiResume.pdf"
             >
               resume
             </ExtLink>
